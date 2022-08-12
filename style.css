@@ -1,0 +1,51 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif !important;
+  background-color: #f8f9fa;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+svg:hover {
+  fill: rgb(72, 168, 247);
+}
+
+.html,
+.css,
+.js {
+  transition: transform, 0.3s;
+}
+
+.html:hover,
+.css:hover,
+.js:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 992px) {
+  p,
+  h1 {
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .social {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 40em) {
+  .html,
+  .css,
+  .js {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
